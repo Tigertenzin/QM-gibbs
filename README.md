@@ -1,5 +1,5 @@
 # QM-gibbs
-Code used to simulate and analyze the inverse-Wigner-Weyl transformation. Link to the [paper discussing the transformation](https://arxiv.org/abs/2007.07264). 
+Code used to simulate and analyze the inverse-Wigner-Weyl transformation. Link to the [paper discussing the theory](https://arxiv.org/abs/2007.07264). 
 
 The Classical mechanics side is solved in `CM_Solver_Wdiag_single.py`. It sets up the classical _W_ -matrix (described in Eq. 18 for the classical Gibbs distribution). Then, it diagonalizes that matrix to get the eigenvectors (the classical 'wave-functions') and eigenvalues (probabilities to be in those states). This computation is performed at certain temperature, $\beta$, and free-parameter, $\epsilon$. 
 
